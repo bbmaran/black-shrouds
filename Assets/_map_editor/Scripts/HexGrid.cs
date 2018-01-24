@@ -4,7 +4,7 @@ using UnityEngine.UI;
 using UnityEngine;
 
 
-public class HexTile_Grid : MonoBehaviour {
+public class HexGrid : MonoBehaviour {
 
 	public int width = 6;
 	public int height = 6;

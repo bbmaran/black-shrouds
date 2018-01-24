@@ -228,14 +228,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 707447604}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60b36ffbaa60c784d9d475c048e514f0, type: 3}
+  m_Script: {fileID: 11500000, guid: 5ea7b103b1e902c44aeb7d7371811bf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   width: 6
   height: 6
   cellPrefab: {fileID: 114432884620490168, guid: 359cbcbfa00d6c44aae69f10d63b503d,
     type: 2}
-  cellLabelPrefab: {fileID: 1043744261}
+  cellLabelPrefab: {fileID: 114781399436850104, guid: 00097d1fddfe7b043b11692022e332d2,
+    type: 2}
 --- !u!1001 &1043744259
 Prefab:
   m_ObjectHideFlags: 0
@@ -351,12 +352,6 @@ RectTransform:
   m_PrefabParentObject: {fileID: 224475889676146322, guid: 00097d1fddfe7b043b11692022e332d2,
     type: 2}
   m_PrefabInternal: {fileID: 1043744259}
---- !u!114 &1043744261 stripped
-MonoBehaviour:
-  m_PrefabParentObject: {fileID: 114781399436850104, guid: 00097d1fddfe7b043b11692022e332d2,
-    type: 2}
-  m_PrefabInternal: {fileID: 1043744259}
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1001 &1069478980
 Prefab:
   m_ObjectHideFlags: 0
