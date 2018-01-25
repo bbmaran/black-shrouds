@@ -237,6 +237,9 @@ MonoBehaviour:
     type: 2}
   cellLabelPrefab: {fileID: 114781399436850104, guid: 00097d1fddfe7b043b11692022e332d2,
     type: 2}
+  greenSprite: {fileID: 21300000, guid: 7eb2601324a0b5848a2068e15b8accc9, type: 3}
+  yellowSprite: {fileID: 21300000, guid: d1516031f927ae44f83be97febd4b07c, type: 3}
+  blueSprite: {fileID: 21300000, guid: 89d423db9f524f040beaff4ee7840a30, type: 3}
 --- !u!1001 &1043744259
 Prefab:
   m_ObjectHideFlags: 0
@@ -334,16 +337,6 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 114781399436850104, guid: 00097d1fddfe7b043b11692022e332d2,
-        type: 2}
-      propertyPath: m_FontData.m_FontSize
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114781399436850104, guid: 00097d1fddfe7b043b11692022e332d2,
-        type: 2}
-      propertyPath: m_FontData.m_MinSize
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 00097d1fddfe7b043b11692022e332d2, type: 2}
   m_IsPrefabParent: 0
@@ -361,11 +354,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4692462095264568, guid: 359cbcbfa00d6c44aae69f10d63b503d, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -3
+      value: -10.5
       objectReference: {fileID: 0}
     - target: {fileID: 4692462095264568, guid: 359cbcbfa00d6c44aae69f10d63b503d, type: 2}
       propertyPath: m_LocalPosition.y
-      value: -8.8
+      value: -13.8
       objectReference: {fileID: 0}
     - target: {fileID: 4692462095264568, guid: 359cbcbfa00d6c44aae69f10d63b503d, type: 2}
       propertyPath: m_LocalPosition.z
@@ -390,21 +383,6 @@ Prefab:
     - target: {fileID: 4692462095264568, guid: 359cbcbfa00d6c44aae69f10d63b503d, type: 2}
       propertyPath: m_RootOrder
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 60008245944171830, guid: 359cbcbfa00d6c44aae69f10d63b503d,
-        type: 2}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[0].y
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 60008245944171830, guid: 359cbcbfa00d6c44aae69f10d63b503d,
-        type: 2}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[5].y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 60008245944171830, guid: 359cbcbfa00d6c44aae69f10d63b503d,
-        type: 2}
-      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].y
-      value: -1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 359cbcbfa00d6c44aae69f10d63b503d, type: 2}
